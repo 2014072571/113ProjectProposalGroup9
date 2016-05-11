@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body background = "https://static.pexels.com/photos/4097/city-cars-traffic-lights.jpeg">
+
+<center><font face = "Papyrus" size = "10" color = "#BF974D">Toda Registration</font></center>
+
+<form action="Fpage2" menthod="post">
+ 
+ 	<font color = "white" face = "Consolas">
+ 	<center>
+ 	<br><br><br>
+	
+		<font color = "#2CAAD4">NAME(Family Name, First Name, Middle Name) </font><br>
+		<input type = "text" name ="NAME"/><br><br>
+
+		<font color = "#2CAAD4">PRESENT ADDRESS(No., Street, City/Municipality, Province) </font><br>
+		<input type = "text" name ="ADDRESS"/><br><br>
+
+		<font color = "#2CAAD4">TEL NO./CP NO.</font><br>
+		<input type="number" name="TELCP"><br><br>		
+
+		<font color = "#2CAAD4">NATIONALITY</font><br>
+		<input type = "text" name ="NATIONALITY"/><br><br>
+
+		<font color = "#2CAAD4">GENDER</font><br>
+		<select name = "GENDER">
+		<option value = "----">----</option>
+		<option value = "MALE">MALE</option>
+		<option value = "FEMALE">FEMALE</option>
+		</select><br><br>
+
+		<font color = "#2CAAD4">BIRTHDATE</font><br>
+		<font color = "#2CAAD4">MONTH</font>
+		<select name="MONTH">
+		<option value="January">January</option>
+		<option value="February">February</option>
+		<option value="March">March</option>
+		<option value="April">April</option>
+		<option value="May">May</option>
+		<option value="June">June</option>
+		<option value="July">July</option>
+		<option value="August">August</option>
+		<option value="September">September</option>
+		<option value="October">October</option>
+		<option value="November">November</option>
+		<option value="December">December</option>
+		</select>
+
+		<font color = "#2CAAD4">DAY</font>
+		<select name="DAY">
+		<option value="1">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+		<option value="4">04</option>
+		<option value="5">05</option>
+		<option value="6">06</option>
+		<option value="7">07</option>
+		<option value="8">08</option>
+		<option value="9">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		</select>
+
+		<font color = "#2CAAD4">YEAR</font>
+		<input type="number" name="YEAR" min="1900" max="2016"><br><br>
+
+		<font color = "#2CAAD4">HEIGHT(in cm)</font><br>
+		<input type="number" name="HEIGHT" min="0.00" max="10"><br><br>
+
+		<font color = "#2CAAD4">WEIGHT(rounded off in kg)</font><br>
+		<input type="number" name="WEIGHT" min="0" max="1000.00"><br><br>
+
+		<font color = "#2CAAD4">BLOOD TYPE</font><br>
+		<input type = "text" name ="BLOODTYPE"/><br><br>
+
+		<font color = "#2CAAD4">LICENSE NUMBER</font><br>
+		<input type="number" name="LICENSENUMBER"><br><br>
+
+		<font color = "#2CAAD4">CIVIL STATUS</font><br>
+		<input type = "radio" name = "CIVILSTATUS" value ="Single">&nbsp Single<br>
+ 		<input type = "radio" name = "CIVILSTATUS" value ="Married"> Married<br>
+		<input type = "radio" name = "CIVILSTATUS" value ="Widowed"> Widowed<br>
+		&nbsp&nbsp<input type = "radio" name = "CIVILSTATUS" value ="Seperated"> Seperated<br>
+
+		<font color = "#2CAAD4">HAIR</font><br>
+		<input type = "radio" name = "HAIR" value ="Black"> Black<br>
+ 		<input type = "radio" name = "HAIR" value ="Brown"> Brown<br>
+		&nbsp<input type = "radio" name = "HAIR" value ="Blonde"> Blonde<br>
+		<input type = "radio" name = "HAIR" value ="Grey"> Grey<br>	
+		<input type = "radio" name = "HAIR" value ="Other"> Other(Specify)<br>
+		<input type = "text" name="HAIR" value = "Other"><br><br>
+
+		<font color = "#2CAAD4">EYES</font><br>
+		<input type = "radio" name = "EYES" value ="Black"> Black<br>
+ 		<input type = "radio" name = "EYES" value ="Brown"> Brown<br>
+		&nbsp<input type = "radio" name = "EYES" value ="Blonde"> Blonde<br>
+		<input type = "radio" name = "EYES" value ="Grey"> Grey<br>	
+		<input type = "radio" name = "EYES" value ="Other"> Other(Specify)<br>
+		<input type = "text" name="EYES" value = "Other"><br><br>
+
+		<font color = "#2CAAD4">BUILT</font><br>
+		<input type = "radio" name = "BUILT" value ="Light"> Light<br>
+ 		&nbsp<input type = "radio" name = "BUILT" value ="Medium"> Medium<br>
+		<input type = "radio" name = "BUILT" value ="Heavy"> Heavy<br><br>
+
+		<font color = "#2CAAD4">COMPLEXION</font><br>
+		<input type = "radio" name = "COMPLEXION" value ="Light"> Light<br>
+ 		&nbsp<input type = "radio" name = "COMPLEXION" value ="Medium"> Medium<br>
+		<input type = "radio" name = "COMPLEXION" value ="Heavy"> Heavy<br><br>
+
+ 		<font color = "#2CAAD4">BIRTH PLACE</font><br>
+ 		<input type = "text" name ="BIRTHPLACE"/><br><br>
+
+ 		<font color = "#2CAAD4">FATHER'S NAME(Family Name, First Name, Middle Name) </font><br>
+		<input type = "text" name ="FNAME"/><br><br>
+
+		<font color = "#2CAAD4">MOTHER'S NAME(Family Name, First Name, Middle Name) </font><br>
+		<input type = "text" name ="MNAME"/><br><br>
+
+		<font color = "#2CAAD4">SPOUSE NAME(Family Name, First Name, Middle Name) </font><br>
+		<input type = "text" name ="SNAME"/><br><br>
+
+
+ 	<br><center><input type="submit" value = "Submit" /></center>
+ 	
+ 	</body>
+ 	</font>
+ </form>
+</html>
